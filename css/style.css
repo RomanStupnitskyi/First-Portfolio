@@ -279,40 +279,40 @@ body {
 @font-face {
   font-family: Inter;
   font-display: swap;
-  src: url("../fonts/Inter-ExtraBold.woff2") format("woff2");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Inter;
-  font-display: swap;
-  src: url("../fonts/Inter-ExtraLight.woff2") format("woff2");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Inter;
-  font-display: swap;
-  src: url("../fonts/Inter-ExtraBold.woff2") format("woff2");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Inter;
-  font-display: swap;
-  src: url("../fonts/Inter-ExtraLight.woff2") format("woff2");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Inter;
-  font-display: swap;
   src: url("../fonts/Inter-Bold.woff2") format("woff2");
   font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
   font-style: normal;
 }
 
@@ -638,7 +638,8 @@ header::before {
   color: #1E2939;
 }
 
-.about-me-info__container .about-me__photo {
+.about-me-info__container .about-me__photo,
+.about-me-info__container picture {
   width: 300px;
   height: 375px;
   box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.4666666667);
@@ -788,7 +789,8 @@ header::before {
     padding: 20px 20px;
   }
 
-  .about-me-info__container .about-me__photo {
+  .about-me-info__container .about-me__photo,
+  .about-me-info__container picture {
     width: 250px;
     height: 310px;
   }
@@ -820,7 +822,8 @@ header::before {
     font-size: 14px;
   }
 
-  .about-me-info__container .about-me__photo {
+  .about-me-info__container .about-me__photo,
+  .about-me-info__container picture {
     margin: 10px auto;
   }
 }
