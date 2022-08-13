@@ -639,6 +639,8 @@ header::before {
 }
 
 .about-me-info__container picture {
+  width: 300px;
+  height: 375px;
   box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.4666666667);
 }
 
@@ -789,6 +791,11 @@ header::before {
   .about-me-info__container .about-me__content {
     font-size: 17px;
     padding: 20px 20px;
+  }
+
+  .about-me-info__container picture {
+    width: 250px;
+    height: 310px;
   }
 
   .about-me-info__container picture .about-me__photo {
