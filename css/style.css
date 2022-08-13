@@ -638,11 +638,13 @@ header::before {
   color: #1E2939;
 }
 
-.about-me-info__container .about-me__photo,
 .about-me-info__container picture {
+  box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.4666666667);
+}
+
+.about-me-info__container picture .about-me__photo {
   width: 300px;
   height: 375px;
-  box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.4666666667);
 }
 
 .contacts__container .contacts-logo {
@@ -789,8 +791,7 @@ header::before {
     padding: 20px 20px;
   }
 
-  .about-me-info__container .about-me__photo,
-  .about-me-info__container picture {
+  .about-me-info__container picture .about-me__photo {
     width: 250px;
     height: 310px;
   }
@@ -822,7 +823,6 @@ header::before {
     font-size: 14px;
   }
 
-  .about-me-info__container .about-me__photo,
   .about-me-info__container picture {
     margin: 10px auto;
   }
