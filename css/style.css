@@ -824,7 +824,7 @@ header::before {
   }
 
   .about-me-info__container picture {
-    margin: 10px auto;
+    margin: 0 auto;
   }
 }
 
