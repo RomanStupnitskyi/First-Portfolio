@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>English homework</title>
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>English homework</title>
+    </head>
 
-<body>
+    <body>
 
-<h1>English homework is loading...</h1>
-<h2>Wait for <span id="counter">3</span></h2>
-<script>
-setInterval(() => {
-    const element = document.getElementById("counter");
-    alert(element.value);
-    if(element.value == 0) document.location.href = "https://www.canva.com/design/DAFRMaDJrd0/LrmOyh3um4_HsY-vwU-Eiw/edit?utm_content=DAFRMaDJrd0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-    else element.value = element.value-1;
-}, 1000)
-</script>
-</body>
+        <h1>English homework is loading...</h1>
+        <h2>Wait for <span id="counter">3</span></h2>
+        <script>
+            setInterval(() => {
+                const element = document.getElementById("counter");
+                if(element.value == 0) document.location.href = "https://www.canva.com/design/DAFRMaDJrd0/LrmOyh3um4_HsY-vwU-Eiw/edit?utm_content=DAFRMaDJrd0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                else element.value = element.value-1;
+            }, 1000)
+        </script>
+    </body>
 </html>
