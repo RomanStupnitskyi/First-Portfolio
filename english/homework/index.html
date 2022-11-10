@@ -13,6 +13,7 @@
         <script>
             setInterval(() => {
                 const element = document.getElementById("counter");
+                alert(element.innerHTML)
                 if(element.value == 0) document.location.href = "https://www.canva.com/design/DAFRMaDJrd0/LrmOyh3um4_HsY-vwU-Eiw/edit?utm_content=DAFRMaDJrd0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                 else element.value = element.value-1;
             }, 1000)
